@@ -24,7 +24,7 @@ $(window).on('load', () => {
   grecaptcha.ready(() => {
     grecaptcha.execute(getreCaptchaV3SiteKey(), { action: pageAction }).then(async (token) => {
 
-        let reCaptchaData = await ajax("verifycaptcha.php", {
+        let reCaptchaData = await ajax("/verifycaptcha.php", {
 
 
             mode: "v3re",
