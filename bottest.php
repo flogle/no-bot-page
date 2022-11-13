@@ -1,6 +1,6 @@
 <?php
 
-require "recaptchainfo.php";
+require "hcaptchainfo.php";
 
 ?>
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ require "recaptchainfo.php";
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
     <script src="jquery-3.6.1.min.js"></script>
     <script src="bottest.js"></script>
     <title>Bot test</title>
@@ -49,7 +49,7 @@ require "recaptchainfo.php";
 
             } else {
 
-                echo "<div class='g-recaptcha' id='recapt' data-sitekey='" . getreCaptchaV2SiteKey() . "' data-callback='verify'></div>";
+                echo "<div class='h-captcha' id='recapt' data-sitekey='" . gethcaptchasitekey() . "' data-callback='verify'></div>";
 
             }
 

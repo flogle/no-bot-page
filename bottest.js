@@ -33,7 +33,7 @@ async function verify(token) {
 
     let recaptchaData = await ajax("verifycaptcha.php", {
 
-        mode: "v2re",
+        mode: "h",
         token: token
 
     }, "POST", "json");
