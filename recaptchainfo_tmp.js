@@ -7,7 +7,3 @@ function getreCaptchaV3SiteKey() {
 
 }
 
-function getreCaptchaV2SiteKey()
-{
-    return "yourv2boxsitekey";
-}
