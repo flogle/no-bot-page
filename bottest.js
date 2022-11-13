@@ -31,14 +31,14 @@ $(window).on("load", () => {
 
 async function verify(token) {
 
-    let recaptchaData = await ajax("verifycaptcha.php", {
+    let hcaptchaData = await ajax("verifycaptcha.php", {
 
         mode: "h",
         token: token
 
     }, "POST", "json");
 
-    if (recaptchaData.success) {
+    if (hcaptchaData.success) {
 
         let url = new URL(location.href)
 
