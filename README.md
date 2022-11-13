@@ -9,8 +9,3 @@ Switch to the reCaptcha branch to get the reCaptcha code.
 ## Use hCaptcha
 
 Switch to the hCaptcha branch to get the hCaptcha code.
-
-## Use Cloudflare Turnstile
-
-Switch to the Turnstile branch to get the Cloudflare Turnstile code.
-
