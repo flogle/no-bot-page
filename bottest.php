@@ -42,7 +42,7 @@ require "recaptchainfo.php";
                 } elseif ($_GET["bot"] == "n") {
 
 
-                    echo "<h3>No your not!</h3><br><h4>Redirecting... <div class='clearfix'><div class='spinner-border float-end' role='status'></div></div></h4>";
+                    echo "<h3>No you're not!</h3><br><h4>Redirecting... <div class='clearfix'><div class='spinner-border float-end' role='status'></div></div></h4>";
 
                 }
 
